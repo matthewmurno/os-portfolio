@@ -1,0 +1,21 @@
+.icon {
+  width: 80px;
+  margin: 12px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.icon img {
+  width: 64px;
+  height: 64px;
+  display: block;
+  margin: 0 auto;
+}
+
+.icon span {
+  font-size: 14px;
+  line-height: 1.2;
+  color: black;
+  margin-top: 4px;
+}

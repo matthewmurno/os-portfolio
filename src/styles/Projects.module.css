@@ -1,0 +1,28 @@
+.projectFolder {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 10px;
+}
+
+.projectIcon {
+  width: 80px;
+  text-align: center;
+  cursor: pointer;
+  font-size: 12px;
+  user-select: none;
+}
+
+.projectIcon img {
+  display: block;
+  margin: 0 auto;
+  image-rendering: pixelated;
+}
+
+.projectIcon span {
+  font-size: 13px;
+  margin-top: 4px;
+  color: black;
+  display: block;
+  word-wrap: break-word;
+}

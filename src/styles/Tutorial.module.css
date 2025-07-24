@@ -1,0 +1,20 @@
+.tutorialBody {
+  font-family: 'Courier New', monospace;
+  font-size: 13px;
+  line-height: 1.5;
+  overflow: hidden;
+}
+
+.tutorialList {
+  padding-left: 20px;
+  margin: 10px 0;
+}
+
+.tutorialButton {
+  margin-top: 10px;
+  padding: 4px 10px;
+  background: #c0c0c0;
+  border: 2px outset #fff;
+  cursor: pointer;
+  font-family: sans-serif;
+}

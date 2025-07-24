@@ -1,0 +1,38 @@
+.taskbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: silver;
+  border-top: 2px solid #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8px;
+  font-size: 16px;
+}
+
+.start-button {
+  background: #c0c0c0;
+  border: 2px outset #fff;
+  padding: 4px 12px;
+  font-weight: normal;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+.start-button:active {
+  border: 2px inset #808080;
+}
+
+.taskbar-spacer {
+  flex-grow: 1;
+}
+
+.taskbar-clock {
+  font-family: monospace;
+  font-size: 14px;
+  padding: 0 12px;
+  color: black;
+}

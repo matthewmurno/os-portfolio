@@ -1,0 +1,78 @@
+.contactContainer {
+  padding: 1rem;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  color: #00ff88;
+  background-color: #1a1a1a;
+  height: 300px;
+  overflow-y: hidden;
+  box-sizing: border-box;
+}
+
+pre {
+  margin: 0 0 8px 0;
+  white-space: pre-wrap;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  color: inherit;
+}
+
+.contactList {
+  list-style: none;
+  padding-left: 0;
+  margin: 1rem 0;
+}
+
+.contactList li {
+  margin-bottom: 0.5rem;
+}
+
+a {
+  color: #00ff88;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.blinkingPrompt {
+  animation: blink 1s step-start infinite;
+  color: #00ff88;
+}
+
+.inputLine {
+  display: flex;
+  align-items: center;
+  font-family: 'Courier New', monospace;
+}
+
+.inputWrapper {
+  position: relative;
+  flex-grow: 1;
+}
+
+.terminalInput {
+  background: transparent;
+  border: none;
+  color: inherit;
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+  outline: none;
+  width: 100%;
+  caret-color: #00ff88; /* show native caret again */
+}
+
+.cursor {
+  width: 8px;
+  height: 1em;
+  background-color: #00ff88;
+  animation: blink 1s step-start infinite;
+  margin-left: 4px;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
